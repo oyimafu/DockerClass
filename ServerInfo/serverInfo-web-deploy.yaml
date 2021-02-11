@@ -1,11 +1,11 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: hellodeployment
+  name: server-info-deployment
 spec:
   selector:
     matchLabels:
-      app: helloapp
+      app: server-info-app
   replicas: 2
   strategy:
     rollingUpdate:
@@ -15,20 +15,20 @@ spec:
   template:
     metadata:
       labels:
-        app: helloapp
+        app: server-info-app
     spec:
       containers:
-      - name: hello
-        image: <ACR login server>/helloworld:2.0
+      - name: server-info
+        image: azureworkshopnet/server-info
 
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: hello
+  name: server-info
 spec:
   type: LoadBalancer
   ports:
   - port: 80
   selector:
-    app: helloapp
+    app: server-info-app
