@@ -17,7 +17,7 @@ COPY . ./
 RUN dotnet publish -c Release -o /app/out
 
 # Download another images with aspnet runtime
-FROM mcr.microsoft.com/dotnet/aspnet
+FROM mcr.microsoft.com/dotnet/aspnet:6.0
 
 # Copy from the first image (DevEnv) binaries
 COPY --from=DevEnv /app/out .
