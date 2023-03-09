@@ -1,0 +1,8 @@
+C:\Demo\ASP.NET\WebApplication1\bin\WebApplication1.dll.config
+C:\Demo\ASP.NET\WebApplication1\bin\WebApplication1.dll
+C:\Demo\ASP.NET\WebApplication1\bin\WebApplication1.pdb
+C:\Demo\ASP.NET\WebApplication1\obj\Debug\WebApplication1.csprojAssemblyReference.cache
+C:\Demo\ASP.NET\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Demo\ASP.NET\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Demo\ASP.NET\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Demo\ASP.NET\WebApplication1\obj\Debug\WebApplication1.csproj.AssemblyReference.cache
